@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ede0d4;
+    margin: 0px;
+}
+
+header {
+    background-color: #ddb892;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 0px;
+    font-family: Edu TAS Beginner;
+}
+
+nav {
+    background-color: #e6ccb2;
+    font-family: Arial;
+    font-size: large;
+    text-align: center;
+    word-spacing: 20px;
+    border-style: hidden;
+}
+
+nav a {
+    padding: 20px;
+    display: inline-block;
+
+}
+
+nav a:hover {
+    background-color: #FAE1DD;
+    color: white;
+}
+
+footer {
+    background-color: #e6ccb2;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 30px;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(image/card_img.jpg);
+    background-size: cover;
+}
+
+article {
+    width: 73%;
+    float: left;
+}
+
+aside {
+    width: 25%;
+    float: right;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow-y: auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media screen and (max-width:800px) {
+
+    article,
+    aside {
+        float: none;
+        width: 100%;
+    }
+
+}
+
+.card {
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+img {
+    max-width: 100%;
+    height: 90%;
+}
+
+.programming{
+    font-family: Edu TAS Beginner;
+    height: 200%;
+    border-radius: 20px;;
+    width: 100%;;
+}
+
+.blank {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background-image: url(image/blank.png);
+    background-size: cover;
+}
+
+.blank {
+    padding: 10px;
+    margin: 15px 0px;
+}
+
